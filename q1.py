@@ -1,6 +1,4 @@
-n= int(input('digite um número: '))
-r= n%2
-if r == 0 :
-     print('O número {} é par '.format(n))
-else: 
-     print('O número {} é impar '.format(n))
+numero=int(input("digite um numero: "))
+s= numero + 1
+a=numero - 1
+print("analisado o numero {} , o sucessor e {} , e o antecessor e {}.".format(numero,s,a))
